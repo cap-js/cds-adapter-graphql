@@ -6,7 +6,7 @@ const express = require ('express')
 
 function CDSGraphQLAdapter (options) {
   const {services} = options
-  const defaults = { graphiql: true }
+  const defaults = { graphiql: true, maskedErrors: false }
   options = { ...defaults, ...options }
 
   return express.Router()
