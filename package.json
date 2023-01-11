@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "graphql": "^15",
-    "graphql-yoga": "^3.2.1"
+    "graphql-yoga": "^3.3.0"
   },
   "peerDependencies": {
     "@sap/cds": "^6.3"
